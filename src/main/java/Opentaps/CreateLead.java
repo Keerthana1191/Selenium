@@ -20,7 +20,6 @@ public class CreateLead extends Wrapper {
 		clickByLinkText("Create Lead");
 
 		FileInputStream fis = new FileInputStream(new File("./data/CreateLead.xlsx"));
-
 		XSSFWorkbook wb = new XSSFWorkbook(fis);
 
 		XSSFSheet sheet = wb.getSheetAt(0);
