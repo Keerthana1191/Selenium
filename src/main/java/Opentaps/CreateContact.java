@@ -18,7 +18,5 @@ public class CreateContact extends Wrapper {
 		clickByClassName("smallSubmit");
 		getText("viewContact_fullName_sp");
 		closeBrowser();
-		
-		
 	}
 }
